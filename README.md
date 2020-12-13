@@ -8,7 +8,7 @@ README는 프로그래밍이 완료된 후에 다시 수정하겠습니다.
 
 ### Built With
 
-* Python 3.X
+* Python 3.7.7
 
 <!-- GETTING STARTED -->
 ## Getting Started
