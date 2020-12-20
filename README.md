@@ -1,24 +1,91 @@
-README는 프로그래밍이 완료된 후에 다시 수정하겠습니다.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[A Quadtree-based Spatial Object Search Scheme](https://www.ijcse.com/docs/INDJCSE20-11-02-109.pdf) 논문의 알고리즘을 구현합니다.  
-논문에서는 Java Swing을 이용하여 구현했으나, 이번에는 파이썬을 이용하여 구현할 예정입니다.  
+![screenshot](readme_media/screenshot.png)
+Implement the algorithm of the paper [A Quadtree-based Spatial Object Search Scheme](https://www.ijcse.com/docs/INDJCSE20-11-02-109.pdf).  
+In the paper, I implemented the algorithm using Java Swing, but this time I implemented the algorithm using a Jupyter notebook.
 
 ### Built With
 
 * Python 3.7.7
+  * Jupyter Notebook 6.0.3
+  * pillow 7.2
+  * opencv-python 4.3.0
+  * numpy 1.19
+  * matplotlib 3.2.2
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
+```bash
+$ pip3 install notebook
+$ pip3 install Pillow
+$ pip3 install opencv-python
+$ pip3 install numpy
+$ pip3 install matplotlib
+```
 ### Installation
+
+1. Clone the repo
+   ```bash
+   $ git clone https://github.com/badger777/object-search-with-quadtree.git
+   ```
+
+<!-- Usage -->
+## Usage
+
+1. Run Jupyter Notebook
+   ```bash
+   $ jupyter notebook
+   ```
+2. Run `object_search.ipynb` in Jupyter Notebook
+
+<!-- Roadmap -->
+## Roadmap
+
+imcomplete
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
@@ -28,3 +95,5 @@ Project Link: [https://github.com/badger777/object-search-with-quadtree](https:/
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
+* [Best README Template](https://github.com/othneildrew/Best-README-Template)
