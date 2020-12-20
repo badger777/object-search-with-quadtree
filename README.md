@@ -1,3 +1,24 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/badger777/object-search-with-quadtree">
+    <img src="readme_media/quadtree.png" alt="Logo" width="100" height="100">
+  </a>
+
+  <h3 align="center">object-search-with-quadtree</h3>
+
+  <p align="center">
+    Search objects quickly used quadtree!
+    <br />
+    <a href="https://github.com/badger777/object-search-with-quadtree"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/badger777/object-search-with-quadtree/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/badger777/object-search-with-quadtree/pulls">Request Feature</a>
+  </p>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -29,13 +50,13 @@
 
 ![screenshot](readme_media/screenshot.png)
 Implement the algorithm of the paper [A Quadtree-based Spatial Object Search Scheme](https://www.ijcse.com/docs/INDJCSE20-11-02-109.pdf).  
-In the paper, I implemented the algorithm using Java Swing, but this time I implemented the algorithm using a Jupyter notebook.
+In the paper, I implemented the algorithm using Java Swing, but this time I implemented the algorithm using a Jupyter Notebook.
 
 ### Built With
 
 * Python 3.7.7
   * Jupyter Notebook 6.0.3
-  * pillow 7.2
+  * Pillow 7.2
   * opencv-python 4.3.0
   * numpy 1.19
   * matplotlib 3.2.2
