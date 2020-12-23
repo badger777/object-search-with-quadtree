@@ -37,7 +37,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#summary">Summary</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -89,10 +89,12 @@ $ pip3 install matplotlib
    ```
 2. Run `object_search.ipynb` in Jupyter Notebook
 
-<!-- Roadmap -->
-## Roadmap
+<!-- Summary -->
+## Summary
 
-imcomplete
+1. The execution time is slower than when implemented in Java.
+2. There is a typo in the paper. Check out in [Issues](https://github.com/badger777/object-search-with-quadtree/issues/1)
+3. The feature of drawing objects was not implemented in `v1.0.0`.
 
 <!-- CONTRIBUTING -->
 ## Contributing
